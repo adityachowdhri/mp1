@@ -1,0 +1,250 @@
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#wrapped{
+    margin: auto;
+    width: 80vw;
+}
+.buttonDesign{
+    padding: 0.25vw 0.5vw;
+    background-color: green;
+    color: white;
+    font-size: 1vw;
+    border-radius: 5px;
+    margin: 0.75vw;
+    text-align: center;
+}
+#first-number{
+    margin: 1vw;
+}
+#second-number{
+    margin: 1vw;
+}
+
+
+header {
+    color: #022c48;
+    background-color: #d7d9de;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    padding: 1vh 1vw;
+    justify-content: space-between;
+}
+
+#headerMain{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Tangerine', sans-serif;
+}
+#output {
+    font-family: 'Tangerine', sans-serif;
+    font-size: calc(4px + 1.5vw);
+
+}
+
+#header-child-2 {
+    margin: auto;
+}
+
+#container {
+    position: relative;
+    background-color: #233408;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+}
+nav {
+    width: 30%;
+    background-color: #233408;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-left: 0;
+    list-style: none;
+    background-color: #233408;
+    font-size: calc(4px + 0.7vw);
+    font-family: 'Inconsolata', sans-serif;
+}
+
+nav li{
+    width: 90%;
+    background-color: #ffffff;
+    padding: 0.5vh;
+    margin: 2vh auto;
+    font-size: calc(6px + 1vw);
+}
+
+nav a {
+    text-decoration: none;
+    color: #022c48;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    background-color: #233408;
+}
+main p {
+    margin: 0 1vw;
+    font-size: calc(2px + 1.5vw);
+    font-family: 'Inconsolata', sans-serif;
+}
+main a {
+    text-decoration: none;
+    color: #233408;
+}
+
+#main {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 2vh 2vw;
+}
+
+#info{
+    align-self: center;
+    width: 60%;
+    margin: 1vh 1vw;
+    color: #ffffff
+}
+
+#image {
+    max-width: 100%;
+    width: 40%;
+    margin: 1vh 1vw;
+    float: left;
+}
+
+
+
+#title {
+    margin: 2vh 0;
+    font-family: 'Inconsolata', sans-serif;
+    text-align: center;
+    font-size: calc(4px + 2vw);
+    color: #ffffff
+}
+
+
+.main-experience {
+    align-self: center;
+    width: 90%;
+    margin: 1vh 1vw;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+footer {
+    background-color: #d7d9de;
+    color: #022c48
+}
+
+footer a {
+    text-decoration: none;
+    color: #233408;
+}
+
+@media screen and (max-width: 750px) {
+    #container {
+        position: relative;
+        background-color: #233408;
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    header {
+        display: flex;
+        justify-content: center;
+        padding: 1vh 1vw;
+        flex-direction: column;
+        background-color: #d7d9de;
+        text-align: center;
+        font-family: 'Tangerine', sans-serif;
+    }
+
+    #headerMain{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+        font-family: 'Tangerine', sans-serif;
+
+    }
+
+    nav {
+        width: 100%;
+        background-color: #233408;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        justify-content: space-between;
+        padding-left: 0;
+        list-style: none;
+        background-color: #233408;
+        font-size: calc(4px + 0.7vw);
+        font-family: 'Inconsolata', sans-serif;
+    }
+
+    nav li{
+        width: 90%;
+        background-color: #ffffff;
+        padding: 2vh 0.5vw;
+        margin: 1vh 1vw;
+        font-size: calc(8px + 1vw);
+    }
+
+    main {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    p {
+        font-size: calc(6px + 1vw);
+        font-family: 'Inconsolata', sans-serif;
+    }
+
+
+    #main {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #title {
+        text-align: center;
+        font-size: calc(6px + 2vw);
+    }
+    #info {
+        width: 100%;
+        align-self: center;
+        margin: 1vh 1vw;
+        font-family: 'Inconsolata', sans-serif;
+    }
+
+    #image{
+        margin: 1vw auto;
+        float: left;
+    }
+
+}
+

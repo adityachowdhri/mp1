@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+    <link type="text/css" rel="stylesheet" href="style.css">
+    <title>Projects</title>
+</head>
+<body id="colored" style="background: yellow">
+<header>
+<div id="headerMain"><h1>The Pretentious Color Changing Calculator</h1> <br><p>
+    "I will tell you all the answers but just be mean about it"
+</p></div>
+
+</header>
+<div id="centered-div">
+<label for="first-number"> First Number: <input type="text" id="first-number"></label>
+    <br>
+<label for="second-number"> Second Number: <input type="text" id="second-number"></label>
+<br>
+<button class="buttonDesign" onclick="addition()"> + </button>
+<button class="buttonDesign" onclick="subtraction()"> - </button>
+<button class="buttonDesign" onclick="multiplication()"> * </button>
+<button class="buttonDesign" onclick="division()"> / </button>
+<button class="buttonDesign" onclick="clearInput()"> Clear</button>
+<button class="buttonDesign" onclick="power()"> ** </button>
+<div id="output"></div>
+</div>
+<script src="logic.js"></script>
+</body>
+</html>
